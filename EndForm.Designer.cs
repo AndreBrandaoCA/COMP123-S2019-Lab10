@@ -34,9 +34,9 @@
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(304, 324);
+            this.BackButton.Location = new System.Drawing.Point(300, 470);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(166, 44);
+            this.BackButton.Size = new System.Drawing.Size(165, 50);
             this.BackButton.TabIndex = 0;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
@@ -45,7 +45,7 @@
             // EndFormLabel
             // 
             this.EndFormLabel.AutoSize = true;
-            this.EndFormLabel.Location = new System.Drawing.Point(323, 139);
+            this.EndFormLabel.Location = new System.Drawing.Point(300, 60);
             this.EndFormLabel.Name = "EndFormLabel";
             this.EndFormLabel.Size = new System.Drawing.Size(132, 31);
             this.EndFormLabel.TabIndex = 1;
@@ -63,6 +63,7 @@
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.MaximizeBox = false;
             this.Name = "EndForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EndForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EndForm_FormClosed);
             this.ResumeLayout(false);

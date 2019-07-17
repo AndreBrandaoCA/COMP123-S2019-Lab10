@@ -35,7 +35,7 @@
             // WelcomeMainFormLabel
             // 
             this.WelcomeMainFormLabel.AutoSize = true;
-            this.WelcomeMainFormLabel.Location = new System.Drawing.Point(229, 186);
+            this.WelcomeMainFormLabel.Location = new System.Drawing.Point(239, 60);
             this.WelcomeMainFormLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.WelcomeMainFormLabel.Name = "WelcomeMainFormLabel";
             this.WelcomeMainFormLabel.Size = new System.Drawing.Size(299, 31);
@@ -44,9 +44,9 @@
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(304, 332);
+            this.NextButton.Location = new System.Drawing.Point(300, 470);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(182, 48);
+            this.NextButton.Size = new System.Drawing.Size(168, 50);
             this.NextButton.TabIndex = 1;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;

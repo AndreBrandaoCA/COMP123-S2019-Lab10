@@ -25,8 +25,7 @@ namespace COMP123_S2019_Lab10
         private void SplashTimer_Tick(object sender, EventArgs e)
         {
             SplashTimer.Enabled = false;
-            MainForm m = new MainForm();
-            m.Show();
+            Program.MainForm.Show();
             this.Hide();
         }
     }
